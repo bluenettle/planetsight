@@ -1,8 +1,11 @@
+import { Container } from 'reactstrap';
+import Announcements from "../features/announcements/Announcements";
+
 const HomePage = () => {
     return (
-        <div>
-        Home
-        </div>
+        <Container>
+            <Announcements/>
+        </Container>
     );
 };
 
