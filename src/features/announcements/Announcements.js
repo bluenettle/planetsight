@@ -5,22 +5,26 @@ import { useSelector } from 'react-redux';
 const Announcements = () => {
 
     const announcements = useSelector(selectAnnouncements);
+    let content = null;
 
     if (announcements) {
-        announcements.map(item => {
+        content = announcements.map(item => {
             return (
-                <Row className='row-content'>
-                    <ListGroup>
-                        <ListGroupItem>{item.content}</ListGroupItem>
-                    </ListGroup>
-                </Row>
+                <ListGroupItem>{item.content}</ListGroupItem>
             );
         })
     } else {
-        return (
-            <></>
-        );
+        content = <ListGroupItem>No new announcements.</ListGroupItem>
     }
+
+    return (
+        <Row className='row-content'>
+        <h4>Announcements</h4>
+        <ListGroup>
+            {content}
+        </ListGroup>
+    </Row>
+);
 };
 
 export default Announcements;

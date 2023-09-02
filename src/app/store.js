@@ -3,6 +3,6 @@ import { announcementsReducer } from '../features/announcements/announcementSlic
 
 export const store = configureStore({
   reducer: {
-    announcements: announcementsReducer,
+    announcements: announcementsReducer
   },
 });
