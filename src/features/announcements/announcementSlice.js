@@ -15,3 +15,4 @@ export const selectAnnouncements = (state) => {
 };
 
 export const announcementsReducer = announcementsSlice.reducer;
+

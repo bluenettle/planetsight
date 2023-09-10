@@ -1,7 +1,12 @@
+import KnowledgebaseMenu from "../features/knowledgebase/KnowledgebaseMenu";
+//import { useState } from "react";
+
 const KnowledgebasePage = () => {
+
+
     return (
         <div>
-        knowledgebase
+        <KnowledgebaseMenu/>
         </div>
     );
 };
