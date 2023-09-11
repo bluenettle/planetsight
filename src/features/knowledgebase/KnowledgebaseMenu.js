@@ -19,7 +19,6 @@ const KnowledgebaseMenu = () => {
     };
 
     return (
-        <div>
             <Col md='2' className='mx-4 mt-4'>
             <Accordion open={open} toggle={toggle} stayOpen>
                 <AccordionItem>
@@ -42,7 +41,6 @@ const KnowledgebaseMenu = () => {
                 </AccordionItem>
             </Accordion>
             </Col>
-        </div>
     );
 }
 

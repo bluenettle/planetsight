@@ -6,7 +6,7 @@ import slapgrass from '../img/hangingWeb.png';
 
 export const PLANTS = [
     {
-        id: 0,
+        id: 1,
         type: 'algae',
         name: 'Hanging Web',
         classification: 'Phaeophyceae electrofilum',
@@ -15,7 +15,7 @@ export const PLANTS = [
         image: hangingWeb
     },
     {
-        id: 1,
+        id: 2,
         type: 'vascular',
         name: "Bubble Bomb",
         classification: "Monophyllaea Explosispora",
@@ -24,7 +24,7 @@ export const PLANTS = [
         image: bubbleBomb
     },
     {
-        id: 2,
+        id: 3,
         type: 'fungi',
         name: "Black Obelisk",
         classification: "Mycalitus solitarius",
@@ -33,7 +33,7 @@ export const PLANTS = [
         image: blackObelisk
     },
     {
-        id: 3,
+        id: 4,
         type: 'vascular',
         name: "Slapgrass",
         classification: "Sanguinocarpa adhærens",

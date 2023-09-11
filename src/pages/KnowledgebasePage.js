@@ -1,13 +1,17 @@
 import KnowledgebaseMenu from "../features/knowledgebase/KnowledgebaseMenu";
-//import { useState } from "react";
+import PlantInfoCard from "../features/knowledgebase/PlantInfoCard";
+import { Row, Container } from 'reactstrap';
 
 const KnowledgebasePage = () => {
 
 
     return (
-        <div>
-        <KnowledgebaseMenu/>
-        </div>
+        <Container>
+            <Row className="row-content">
+                <KnowledgebaseMenu/>
+                <PlantInfoCard/>
+            </Row>
+        </Container>
     );
 };
 

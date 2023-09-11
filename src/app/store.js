@@ -5,6 +5,6 @@ import { knowledgebaseReducer } from '../features/knowledgebase/knowledgebaseSli
 export const store = configureStore({
   reducer: {
     announcements: announcementsReducer,
-    knowledgebase: knowledgebaseReducer
+    knowledgebase: knowledgebaseReducer,
   },
 });

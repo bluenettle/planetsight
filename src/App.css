@@ -4,6 +4,7 @@
 body {
   background-color: #F2EFEA;
   font-family: "Roboto Condensed", sans-serif; }
+
   body .jumbotron {
     background-image: linear-gradient(to top, #6D7FC1, #68A691 90%);
     font-family: "Sonsie One", cursive;
@@ -79,3 +80,12 @@ body {
 .image-area img {
   z-index: 2;
   position: relative; }
+
+    th, td {
+      padding: 1rem 0 0 0;
+    }
+
+    th {
+      padding-right: 1rem;
+    }
+
